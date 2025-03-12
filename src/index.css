@@ -1,4 +1,18 @@
-:root {
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-size: 2em;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +79,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
